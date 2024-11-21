@@ -1,0 +1,305 @@
+img {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+html {
+        scroll-behavior: smooth;
+}
+
+/* Some styling for sections */
+section {
+        height: 100vh;
+        padding: 20px;
+        background: #f2f2f2;
+        border-bottom: 2px solid #ddd;
+}
+#heading{
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    font-size: 100px;
+    z-index: 1;
+    color: rgb(155, 241, 248);
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+@keyframes fadein{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+#black{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    height: 90px;
+    width: 1520px;
+    background-color: rgba(0, 0, 0, 0.49);
+    z-index: 2;
+}
+#causes{
+    position:fixed;
+    left: 10vh;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 30px;
+    z-index: 2;
+    color: white;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+#causes:hover{
+    text-decoration: underline;
+}
+#effects{
+    position:fixed;
+    left: 40vh;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 30px;
+    z-index: 2;
+    color: white;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+#effects:hover{
+    text-decoration: underline;
+}
+#project{
+    position:fixed;
+    left: 180vh;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 30px;
+    z-index: 2;
+    color: white;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+#project:hover{
+    text-decoration: underline;
+}
+#solution{
+    position:fixed;
+    left: 70vh;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 30px;
+    z-index: 2;
+    color: white;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+#solution:hover{
+    text-decoration: underline;
+}
+#subhead{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    font-size: 30px;
+    font-weight: bold;
+    width: 990px;
+    color: white;
+    animation-name: fadein;
+    animation-duration: 2s;
+    text-align: center;
+}
+#maingif{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 110%;
+    width: 100%;
+    opacity: 90%;
+}
+#causesg{
+    position:relative;    
+    left: -10%;
+    top: -44%;
+    height: 110%;
+    width: 120%;
+}
+#effectsg{
+    position:relative;    
+    left: -10%;
+    top: -47%;
+    height: 126%;
+    width: 120%;
+
+}
+#solutiong{
+    position:relative;    
+    left: -10%;
+    top: -48%;
+    height: 110%;
+    width: 120%;
+}
+#causesh{
+    position: relative;
+    left: 3%;
+    top: 3%;
+    font-size: 100px;
+    z-index: 1;
+    color: rgb(255, 221, 253);
+}
+#causesp{
+    position: relative;
+    width:850px;
+    left: 3%;
+    top: -115%;
+    font-size: 30px;
+    z-index: 1;
+    font-weight: bold;
+    color: whitesmoke;  
+}
+#effectsh{
+    position: relative;
+    left: 3%;
+    top: 3%;
+    font-size: 100px;
+    z-index: 1;
+    color: rgb(200, 0, 255);
+}
+#effectsp{
+    position: relative;
+    width:900px;
+    left: 3%;
+    top: -130%;
+    font-size: 30px;
+    z-index: 1;
+    font-weight: bold;
+    color: whitesmoke 
+}
+#solutionh{
+    position: relative;
+    left: 3%;
+    top: 3%;
+    font-size: 100px;
+    z-index: 1;
+    color: rgb(249, 223, 172);
+}
+#solutionp{
+    position: relative;
+    width:1400px;
+    left: 3%;
+    top: -120%;
+    font-size: 30px;
+    z-index: 1;
+    font-weight: bold;
+    color: whitesmoke 
+}
+#d1{
+    position: relative;
+    width:460px;
+    height: 35px;
+    left: 65%;
+    top: -155%;
+    font-size: 30px;
+    z-index: 1;
+    font-weight: bold;
+    background-color: rgb(88, 205, 251);
+    color: whitesmoke
+    
+}
+#d2{
+    position: relative;
+    width:425px;
+    height: 35px;
+    left: 65%;
+    top: -150%;
+    font-size: 30px;
+    z-index: 1;
+    font-weight: bold;
+    background-color: rgb(88, 205, 251);
+    color: whitesmoke
+}
+#d3{
+    position: relative;
+    width:385px;
+    height: 35px;
+    left: 65%;
+    top: -145%;
+    font-size: 30px;
+    z-index: 1;
+    font-weight: bold;
+    background-color: rgb(88, 205, 251);
+    color: whitesmoke
+}
+#d4{
+    position: relative;
+    width:360px;
+    height: 35px;
+    left: 65%;
+    top: -140%;
+    font-size: 30px;
+    z-index: 1;
+    font-weight: bold;
+    background-color: rgb(88, 205, 251);
+    color: whitesmoke
+}
+#d1, #d2, #d3, #d4 {
+    transition: all 1s ease;
+}
+#foot{
+    position: relative;
+    top: -665px;
+    left: -30px;
+    width: 120%;
+    height: 400px;
+    background-color: black;
+    z-index: 2;
+}
+#con{
+    position: relative;
+    top: -10px;
+    left: 90px;
+    color: white;
+    z-index: 2;
+}
+#data{
+    position: relative;
+    top: 10px;
+    left: 1080px;
+    color: white;
+    z-index: 2;
+}
+#join{
+    position: relative;
+    top: -25px;
+    left: 800px;
+    color: white;
+    z-index: 2;
+}
+#pr{
+    position: relative;
+    top: -95px;
+    left: 680px;
+    color: white;
+    z-index: 2;
+}
+#ll{
+    position: relative;
+    top: 110px;
+    left: 90px;
+    height: 50px;
+    width: 50px;
+    color: white;
+    z-index: 2;
+}
+#dll{
+    position: relative;
+    top: 75px;
+    left: 95px;
+    font-size: 50px;
+    color: white;
+    z-index: 2;
+}

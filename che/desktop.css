@@ -1,0 +1,270 @@
+/* General styles for all devices */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#box {
+    height: 600px;
+    width: 1000px;
+    position: absolute;
+    left: 270px;
+    top: 70px;
+    background-color: black;
+    z-index: 4;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px black,1px 1px 8px black,1px 1px 8px black,1px 1px 8px black;
+}
+
+#msg{
+    position: absolute;
+    left: 13.55%;
+    top: 80%;
+    font-weight: bold;
+    font-size: 1.2em;
+    z-index: 3;
+    background-color: white;
+    color: red;
+    transition: all 1s; 
+}
+#msg2{
+    position: absolute;
+    left: 600px;
+    top: 74%;
+    font-weight: bold;
+    font-size: 1.2em;
+    z-index: 3;
+    background-color: white;
+    color: red;
+    transition: all 1s; 
+}
+#submit {
+    height: 8%;
+    width: 30%;
+    border-radius: 20px;
+    position: absolute;
+    left: 13.55%;
+    top: 83%;
+    font-weight: bold;
+    font-size: 1.2em;
+    z-index: 3;
+    background-color: black;
+    color: white;
+    transition: all 1s; 
+}
+
+#reg{
+    height: 110%;
+    width: 170%;
+    position: absolute;
+    left: -40%;
+    top: 50%;
+    background-color: white;
+    z-index: 1;
+    transform: rotate(50deg);
+    transition: all 0.8s;
+}
+
+#heder{
+    font-weight: 90px;
+    font-size: 60px;
+    color: black;
+    position:absolute;
+    top: 100px;
+    left: 70px;
+    z-index: 2;
+    transition: all 1s; 
+}
+#we{
+    font-weight: 90px;
+    font-size: 60px;
+    color: white;
+    position:absolute;
+    top: 100px;
+    left: 680px;
+    z-index: 2;
+    transition: all 1s;
+}
+#ba{
+    font-weight: 90px;
+    font-size: 60px;
+    color: white;
+    position:absolute;
+    top: 170px;
+    left: 720px;
+    z-index: 2;
+    transition: all 1s;
+}
+#userlogin{
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    height: 50px;
+    width: 470px;
+    z-index: 3;
+    text-align: center;
+    font-size: 20px;
+    transition: all 1s;
+    border-top:2px solid white;
+    border-left:2px solid white;
+    border-right:2px solid white;
+    border-bottom: 5px solid black;
+}
+#userlogin:hover{
+    border-bottom: 5px solid greenyellow;
+}
+#passlogin{
+    position: absolute;
+    top: 350px;
+    left: 50px; 
+    height: 50px;
+    width: 470px;
+    z-index: 3;
+    text-align: center;
+    font-size: 20px;
+    transition: all 1s;
+    border-top:2px solid white;
+    border-left:2px solid white;
+    border-right:2px solid white;
+    border-bottom: 5px solid black;
+}
+#passlogin:hover{
+    border-bottom: 5px solid greenyellow;
+}
+#dont{
+    position: absolute;
+    color: black;
+    top: 400px;
+    left: 50px;
+    font-weight: 40px;
+    font-size: 20px;
+    z-index: 2;
+    transition: all 1s; 
+    
+}
+#createa{
+    position: absolute;
+    color: black;
+    top: 440px;
+    left: 370px;
+    font-weight: 40px;
+    font-size: 20px;
+    z-index: 2;
+    cursor: pointer;   
+    transition: all 1s; 
+}
+#hederc{
+    font-weight: 90px;
+    font-size: 50px;
+    color: black;
+    position:absolute;
+    top: -70px;
+    left: 570px;
+    z-index: 2;
+    transition: all 1s; 
+}
+#usercre{
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    height: 50px;
+    width: 470px;
+    z-index: 3;
+    text-align: center;
+    font-size: 20px;
+    transition: all 1s;
+    border-top:2px solid white;
+    border-left:2px solid white;
+    border-right:2px solid white;
+    border-bottom: 5px solid black;
+}
+#usercre:hover{
+    border-bottom: 5px solid greenyellow;
+}
+#passcre{
+    position: absolute;
+    top: 278px;
+    left: 1000px;
+    height: 50px;
+    width: 470px;
+    z-index: 3;
+    text-align: center;
+    font-size: 20px;
+    transition: all 1s;
+    border-top:2px solid white;
+    border-left:2px solid white;
+    border-right:2px solid white;
+    border-bottom: 5px solid black;
+}
+#passcre:hover{
+    border-bottom: 5px solid greenyellow;
+}
+#repass{
+    position: absolute;
+    top: 355px;
+    left: 1000px;
+    height: 50px;
+    width: 470px;
+    z-index: 3;
+    text-align: center;
+    font-size: 20px;
+    transition: all 1s;
+    border-top:2px solid white;
+    border-left:2px solid white;
+    border-right:2px solid white;
+    border-bottom: 5px solid black;
+}
+#repass:hover{
+    border-bottom: 5px solid greenyellow;
+}
+#exis{
+    position: absolute;
+    color: black;
+    top: 800px;
+    left: 520px;
+    font-weight: 40px;
+    font-size: 20px;
+    z-index: 2;
+    transition: all 1s;
+    
+}
+#login{
+    position: absolute;
+    color: black;
+    top: 800px;
+    left: 900px;
+    font-weight: 40px;
+    font-size: 20px;
+    z-index: 2;
+    cursor: pointer;   
+    transition: all 1s;
+}
+#submitc {
+    height: 8%;
+    width: 30%;
+    border-radius: 20px;
+    position: absolute;
+    left: 1000px;
+    top: 83%;
+    font-weight: bold;
+    font-size: 1.2em;
+    z-index: 3;
+    background-color: black;
+    color: white;
+    transition: all 1s; 
+}
+#eye {
+    height: 40px;
+    width: 40px;
+    z-index: 3;
+    background-image: url('hide.png');
+    background-size: cover;
+    position: absolute;
+    left: 480px;
+    top: 60%;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
